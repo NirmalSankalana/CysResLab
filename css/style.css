@@ -40,8 +40,8 @@ h3{
 }
 
 .container .row nav p{
-  padding-right: 20%;
-  margin-right: 20%;
+  padding-right: 16.66%;
+  margin-right: 16.66%;
 }
 
 
@@ -118,6 +118,9 @@ main{
 
 }
 
+.carousel-item{
+  
+}
 
 
 footer{
