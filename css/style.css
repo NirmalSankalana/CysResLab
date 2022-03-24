@@ -26,17 +26,24 @@ h3{
 
 
 .sidebar {
+  padding-top: 16.66vh;
   position: fixed;
   top: 0;
   bottom: 0;
-  z-index: 100; /* Behind the navbar */
-  
+  z-index: 100; /* Behind the navbar */  
+  height: 100vh;
 }
 
 .sidebar h1{
   font-size: 2rem;
   color: var(--CSE-orange);
 }
+
+.container .row nav p{
+  padding-right: 20%;
+  margin-right: 20%;
+}
+
 
 @media (max-width: 767.98px) {
   .sidebar h1, .sidebar p{
@@ -45,6 +52,7 @@ h3{
 
   .sidebar{
     background-color: white;
+    padding-top: 8vh;
   }
 }
 
@@ -60,7 +68,6 @@ h3{
 .sidebar-sticky {
   position: relative;
   top: 0;
-  height: calc(100vh - 48px);
   padding-top: .5rem;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
@@ -84,9 +91,18 @@ h3{
   color: var(--CSE-orange);
 }
 
+.social-icons{
+  position: absolute;
+  bottom: 2.7vh;
+}
+
 .navbar .navbar-toggler {
   top: .25rem;
   right: 1rem;
+}
+
+main{
+  padding-top: 16.66vh;
 }
 
 
@@ -108,4 +124,15 @@ footer{
   background-color: var(--CSE-orange);
   padding: 1.5rem 3rem 1rem 3rem;
   color: white;
+}
+
+
+i {
+  width: 24px;
+  height: 24px;
+  stroke: black;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }
